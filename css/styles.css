@@ -1,3 +1,4 @@
+/* MAIN ELEMENT STYLING */
 body {
     background-color: #0e1315;
     text-align: center;
@@ -5,19 +6,24 @@ body {
     color: white;
 }
 
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* TABLE STYLING */
+
 .table-park {
     margin-top: 5px;
-    display: flex;
     justify-content: center;
     text-align: left;
-    
 }
 
 .table-park th {
     border: solid 1px black;
     background: rgb(233, 213, 37);
     color: black;
-    padding: 5px;
+    /* padding: 5px; */
 }
 
 .table-park td {
@@ -25,4 +31,21 @@ body {
     background: rgb(158, 158, 158);
     color: rgb(51, 51, 51);
     padding: 5px;
+}
+
+/* CCARD STYLING */
+
+.item {
+    width: 25%;
+    margin-bottom: 10%;
+    border: 2px solid white;
+    padding: 5px;
+    min-width: 327px;
+    background-color: rgb(53, 53, 53);
+    border-radius: 10px;
+}
+
+.item img {
+    width: 100%;
+    object-fit: cover;
 }
