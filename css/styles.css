@@ -6,9 +6,8 @@ body {
     color: white;
 }
 
-.main-container {
-    display: flex;
-    justify-content: space-around;
+header {
+    background-color: white;
 }
 
 /* TABLE STYLING */
@@ -33,7 +32,13 @@ body {
     padding: 5px;
 }
 
+
 /* CCARD STYLING */
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+}
 
 .item {
     width: 25%;
@@ -48,4 +53,12 @@ body {
 .item img {
     width: 100%;
     object-fit: cover;
+}
+
+#nav-logo {
+    width: 5%;
+}
+
+nav h1 {
+    color: black;
 }
